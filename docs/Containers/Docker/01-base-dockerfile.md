@@ -9,7 +9,7 @@ Description: Base Dockerfile templates.
 
 === "General"
     ``` Dockerfile linenums="1" hl_lines="3 4 6 7 9 27"
-    FROM public.ecr.aws/docker/library/alpine:3.18.3
+    FROM public.ecr.aws/docker/library/alpine:3.21.3
 
     ENV USER_NAME <USER NAME>
     ENV USER_UID <UID NUMBER>
@@ -42,7 +42,7 @@ Description: Base Dockerfile templates.
 
 === "AMD64"
     ``` Dockerfile linenums="1" hl_lines="3 4 6 7 9 27"
-    FROM amd64/alpine:3.18.3
+    FROM amd64/alpine:3.21.3
 
     ENV USER_NAME <USER NAME>
     ENV USER_UID <UID NUMBER>
@@ -75,7 +75,7 @@ Description: Base Dockerfile templates.
 
 === "ARM64"
     ``` Dockerfile linenums="1" hl_lines="3 4 6 7 9 27"
-    FROM arm64v8/alpine:3.18.3
+    FROM arm64v8/alpine:3.21.3
 
     ENV USER_NAME <USER NAME>
     ENV USER_UID <UID NUMBER>
@@ -106,11 +106,11 @@ Description: Base Dockerfile templates.
 
     [Image Information](https://hub.docker.com/r/arm64v8/alpine)
 
-## Amazon Linux 2
+## Amazon Linux 2023
 
 === "General"
     ``` Dockerfile linenums="1" hl_lines="5 6 8 9 11 31"
-    FROM public.ecr.aws/docker/library/amazonlinux:2.0.20230727.0
+    FROM public.ecr.aws/docker/library/amazonlinux:2023.6.20250218.2-minimal
 
     ENV TINI_VERSION v0.19.0
 
@@ -147,7 +147,7 @@ Description: Base Dockerfile templates.
 
 === "AMD64"
     ``` Dockerfile linenums="1" hl_lines="5 6 8 9 11 31"
-    FROM amd64/amazonlinux:2.0.20230727.0
+    FROM amd64/amazonlinux:2023.6.20250218.2-minimal
 
     ENV TINI_VERSION v0.19.0
 
@@ -184,7 +184,7 @@ Description: Base Dockerfile templates.
 
 === "ARM64"
     ``` Dockerfile linenums="1" hl_lines="5 6 8 9 11 31"
-    FROM arm64v8/amazonlinux:2.0.20230727.0
+    FROM arm64v8/amazonlinux:2023.6.20250218.2-minimal
 
     ENV TINI_VERSION v0.19.0
 
@@ -333,7 +333,7 @@ Description: Base Dockerfile templates.
 
 === "General"
     ``` Dockerfile linenums="1" hl_lines="3 4 6 7 9 29"
-    FROM public.ecr.aws/docker/library/debian:11.7-slim
+    FROM public.ecr.aws/docker/library/debian:bookworm-20250203-slim
 
     ENV USER_NAME <USER NAME>
     ENV USER_UID <UID NUMBER>
@@ -368,7 +368,7 @@ Description: Base Dockerfile templates.
 
 === "AMD64"
     ``` Dockerfile linenums="1" hl_lines="3 4 6 7 9 29"
-    FROM amd64/debian:11.7-slim
+    FROM amd64/debian:bookworm-20250203-slim
 
     ENV USER_NAME <USER NAME>
     ENV USER_UID <UID NUMBER>
@@ -403,7 +403,7 @@ Description: Base Dockerfile templates.
 
 === "ARM64"
     ``` Dockerfile linenums="1" hl_lines="3 4 6 7 9 29"
-    FROM arm64v8/debian:11.7-slim
+    FROM arm64v8/debian:bookworm-20250203-slim
 
     ENV USER_NAME <USER NAME>
     ENV USER_UID <UID NUMBER>
@@ -440,7 +440,7 @@ Description: Base Dockerfile templates.
 
 === "General"
     ``` Dockerfile linenums="1" hl_lines="3 4 6 7 9 29"
-    FROM public.ecr.aws/docker/library/ubuntu:22.04
+    FROM public.ecr.aws/docker/library/ubuntu:24.04
 
     ENV USER_NAME <USER NAME>
     ENV USER_UID <UID NUMBER>
@@ -475,7 +475,7 @@ Description: Base Dockerfile templates.
 
 === "AMD64"
     ``` Dockerfile linenums="1" hl_lines="3 4 6 7 9 29"
-    FROM amd64/ubuntu:22.04
+    FROM amd64/ubuntu:24.04
 
     ENV USER_NAME <USER NAME>
     ENV USER_UID <UID NUMBER>
@@ -510,7 +510,7 @@ Description: Base Dockerfile templates.
 
 === "ARM64"
     ``` Dockerfile linenums="1" hl_lines="3 4 6 7 9 29"
-    FROM arm64v8/ubuntu:22.04
+    FROM arm64v8/ubuntu:24.04
 
     ENV USER_NAME <USER NAME>
     ENV USER_UID <UID NUMBER>

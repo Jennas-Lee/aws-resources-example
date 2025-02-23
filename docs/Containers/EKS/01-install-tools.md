@@ -31,115 +31,93 @@
 
 === "Linux (x86_64)"
 
-    ??? note "Kubernetes `1.27`"
+    ??? note "Kubernetes `1.32`"
     
         ``` bash
-        curl -LO https://s3.us-west-2.amazonaws.com/amazon-eks/1.27.1/2023-04-19/bin/linux/amd64/kubectl
+        curl -LO https://s3.us-west-2.amazonaws.com/amazon-eks/1.32.0/2024-12-20/bin/linux/amd64/kubectl
         sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
         sudo install -o root -g root -m 0755 kubectl /usr/bin/kubectl
-        kubectl version --short --client
-        sudo kubectl version --short --client
+        kubectl version --client
+        sudo kubectl version --client
         rm kubectl
         ```
 
-    ??? note "Kubernetes `1.26`"
+    ??? note "Kubernetes `1.31`"
     
         ``` bash
-        curl -LO https://s3.us-west-2.amazonaws.com/amazon-eks/1.26.4/2023-05-11/bin/linux/amd64/kubectl
+        curl -LO https://s3.us-west-2.amazonaws.com/amazon-eks/1.31.3/2024-12-12/bin/linux/amd64/kubectl
         sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
         sudo install -o root -g root -m 0755 kubectl /usr/bin/kubectl
-        kubectl version --short --client
-        sudo kubectl version --short --client
+        kubectl version --client
+        sudo kubectl version --client
         rm kubectl
         ```
 
-    ??? note "Kubernetes `1.25`"
+    ??? note "Kubernetes `1.30`"
     
         ``` bash
-        curl -LO https://s3.us-west-2.amazonaws.com/amazon-eks/1.25.9/2023-05-11/bin/linux/amd64/kubectl
+        curl -LO https://s3.us-west-2.amazonaws.com/amazon-eks/1.30.7/2024-12-12/bin/linux/amd64/kubectl
         sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
         sudo install -o root -g root -m 0755 kubectl /usr/bin/kubectl
-        kubectl version --short --client
-        sudo kubectl version --short --client
+        kubectl version --client
+        sudo kubectl version --client
         rm kubectl
         ```
 
-    ??? note "Kubernetes `1.24`"
+    ??? note "Kubernetes `1.29`"
     
         ``` bash
-        curl -LO https://s3.us-west-2.amazonaws.com/amazon-eks/1.24.13/2023-05-11/bin/linux/amd64/kubectl
+        curl -LO https://s3.us-west-2.amazonaws.com/amazon-eks/1.29.10/2024-12-12/bin/linux/amd64/kubectl
         sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
         sudo install -o root -g root -m 0755 kubectl /usr/bin/kubectl
-        kubectl version --short --client
-        sudo kubectl version --short --client
-        rm kubectl
-        ```
-
-    ??? note "Kubernetes `1.23`"
-    
-        ``` bash
-        curl -LO https://s3.us-west-2.amazonaws.com/amazon-eks/1.23.17/2023-05-11/bin/linux/amd64/kubectl
-        sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
-        sudo install -o root -g root -m 0755 kubectl /usr/bin/kubectl
-        kubectl version --short --client
-        sudo kubectl version --short --client
+        kubectl version --client
+        sudo kubectl version --client
         rm kubectl
         ```
 
 === "Linux (ARM64)"
     
-    ??? note "Kubernetes `1.27`"
+    ??? note "Kubernetes `1.32`"
     
         ``` bash
-        curl -LO https://s3.us-west-2.amazonaws.com/amazon-eks/1.27.1/2023-04-19/bin/linux/arm64/kubectl
+        curl -LO https://s3.us-west-2.amazonaws.com/amazon-eks/1.32.0/2024-12-20/bin/linux/arm64/kubectl
         sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
         sudo install -o root -g root -m 0755 kubectl /usr/bin/kubectl
-        kubectl version --short --client
-        sudo kubectl version --short --client
+        kubectl version --client
+        sudo kubectl version --client
         rm kubectl
         ```
 
-    ??? note "Kubernetes `1.26`"
+    ??? note "Kubernetes `1.31`"
     
         ``` bash
-        curl -LO https://s3.us-west-2.amazonaws.com/amazon-eks/1.26.4/2023-05-11/bin/linux/arm64/kubectl
+        curl -LO https://s3.us-west-2.amazonaws.com/amazon-eks/1.31.3/2024-12-12/bin/linux/arm64/kubectl
         sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
         sudo install -o root -g root -m 0755 kubectl /usr/bin/kubectl
-        kubectl version --short --client
-        sudo kubectl version --short --client
+        kubectl version --client
+        sudo kubectl version --client
         rm kubectl
         ```
 
-    ??? note "Kubernetes `1.25`"
+    ??? note "Kubernetes `1.30`"
     
         ``` bash
-        curl -LO https://s3.us-west-2.amazonaws.com/amazon-eks/1.25.9/2023-05-11/bin/linux/arm64/kubectl
+        curl -LO https://s3.us-west-2.amazonaws.com/amazon-eks/1.30.7/2024-12-12/bin/linux/arm64/kubectl
         sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
         sudo install -o root -g root -m 0755 kubectl /usr/bin/kubectl
-        kubectl version --short --client
-        sudo kubectl version --short --client
+        kubectl version --client
+        sudo kubectl version --client
         rm kubectl
         ```
 
-    ??? note "Kubernetes `1.24`"
+    ??? note "Kubernetes `1.29`"
     
         ``` bash
-        curl -LO https://s3.us-west-2.amazonaws.com/amazon-eks/1.24.13/2023-05-11/bin/linux/arm64/kubectl
+        curl -LO https://s3.us-west-2.amazonaws.com/amazon-eks/1.29.10/2024-12-12/bin/linux/arm64/kubectl
         sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
         sudo install -o root -g root -m 0755 kubectl /usr/bin/kubectl
-        kubectl version --short --client
-        sudo kubectl version --short --client
-        rm kubectl
-        ```
-
-    ??? note "Kubernetes `1.23`"
-    
-        ``` bash
-        curl -LO https://s3.us-west-2.amazonaws.com/amazon-eks/1.23.17/2023-05-11/bin/linux/arm64/kubectl
-        sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
-        sudo install -o root -g root -m 0755 kubectl /usr/bin/kubectl
-        kubectl version --short --client
-        sudo kubectl version --short --client
+        kubectl version --client
+        sudo kubectl version --client
         rm kubectl
         ```
 
@@ -151,34 +129,28 @@
 
 === "Windows (Executable)"
 
-    ??? note "Kubernetes `1.27`"
+    ??? note "Kubernetes `1.32`"
     
         ``` powershell
-        curl.exe -LO "https://s3.us-west-2.amazonaws.com/amazon-eks/1.27.1/2023-04-19/bin/windows/amd64/kubectl.exe"
+        curl.exe -LO "https://s3.us-west-2.amazonaws.com/amazon-eks/1.32.0/2024-12-20/bin/windows/amd64/kubectl.exe"
         ```
     
-    ??? note "Kubernetes `1.26`"
+    ??? note "Kubernetes `1.31`"
     
         ``` powershell
-        curl.exe -LO "https://s3.us-west-2.amazonaws.com/amazon-eks/1.26.4/2023-05-11/bin/windows/amd64/kubectl.exe"
+        curl.exe -LO "https://s3.us-west-2.amazonaws.com/amazon-eks/1.31.3/2024-12-12/bin/windows/amd64/kubectl.exe"
         ```
     
-    ??? note "Kubernetes `1.25`"
+    ??? note "Kubernetes `1.30`"
     
         ``` powershell
-        curl.exe -LO "https://s3.us-west-2.amazonaws.com/amazon-eks/1.25.9/2023-05-11/bin/windows/amd64/kubectl.exe"
+        curl.exe -LO "https://s3.us-west-2.amazonaws.com/amazon-eks/1.30.7/2024-12-12/bin/windows/amd64/kubectl.exe"
         ```
     
-    ??? note "Kubernetes `1.24`"
+    ??? note "Kubernetes `1.29`"
     
         ``` powershell
-        curl.exe -LO "https://s3.us-west-2.amazonaws.com/amazon-eks/1.24.13/2023-05-11/bin/windows/amd64/kubectl.exe"
-        ```
-
-    ??? note "Kubernetes `1.23`"
-    
-        ``` powershell
-        curl.exe -LO "https://s3.us-west-2.amazonaws.com/amazon-eks/1.23.17/2023-05-11/bin/windows/amd64/kubectl.exe"
+        curl.exe -LO "https://s3.us-west-2.amazonaws.com/amazon-eks/1.29.10/2024-12-12/bin/windows/amd64/kubectl.exe"
         ```
 
 ??? tip "Enable Shell Autocomplete"
@@ -195,7 +167,7 @@
 === "Linux (x86_64)"
     
     ``` bash
-    curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_Linux_amd64.tar.gz" | tar xz -C /tmp
+    curl --silent --location "https://github.com/eksctl-io/eksctl/releases/latest/download/eksctl_Linux_amd64.tar.gz" | tar xz -C /tmp
     sudo cp /tmp/eksctl /usr/local/bin
     sudo cp /tmp/eksctl /usr/bin
     eksctl version
@@ -205,7 +177,7 @@
 === "Linux (ARM64)"
     
     ``` bash
-    curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_Linux_arm64.tar.gz" | tar xz -C /tmp
+    curl --silent --location "https://github.com/eksctl-io/eksctl/releases/latest/download/eksctl_Linux_arm64.tar.gz" | tar xz -C /tmp
     sudo cp /tmp/eksctl /usr/local/bin
     sudo cp /tmp/eksctl /usr/bin
     eksctl version
@@ -221,7 +193,7 @@
 === "Windows (Executable)"
     
     ``` powershell
-    curl.exe -LO https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_Windows_amd64.zip
+    curl.exe -LO https://github.com/eksctl-io/eksctl/releases/latest/download/eksctl_Windows_amd64.zip
     Expand-Archive ./eksctl_Windows_amd64.zip -DestinationPath ./
     rm eksctl_Windows_amd64.zip
     ```
@@ -350,7 +322,7 @@
                     "iam:DeleteRole",
                     "iam:AttachRolePolicy",
                     "iam:PutRolePolicy",
-                    "iam:ListInstanceProfiles",
+                    "iam:UpdateAssumeRolePolicy",
                     "iam:AddRoleToInstanceProfile",
                     "iam:ListInstanceProfilesForRole",
                     "iam:PassRole",
@@ -363,6 +335,7 @@
                     "iam:TagOpenIDConnectProvider",
                     "iam:ListAttachedRolePolicies",
                     "iam:TagRole",
+                    "iam:UntagRole",
                     "iam:GetPolicy",
                     "iam:CreatePolicy",
                     "iam:DeletePolicy",
@@ -380,10 +353,12 @@
             {
                 "Effect": "Allow",
                 "Action": [
-                    "iam:GetRole"
+                    "iam:GetRole",
+                    "iam:GetUser"
                 ],
                 "Resource": [
-                    "arn:aws:iam::<account_id>:role/*"
+                    "arn:aws:iam::<account_id>:role/*",
+                    "arn:aws:iam::<account_id>:user/*"
                 ]
             },
             {
@@ -408,34 +383,34 @@
 
     [eksctl Documentation](https://eksctl.io/usage/minimum-iam-policies/)
 
-[AWS Documentation](https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html)
+[AWS Documentation](https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html#eksctl-install-update)
 
 ## Install `helm`
 
 === "Linux (x86_64)"
     
     ``` bash
-    curl -LO https://get.helm.sh/helm-v3.12.2-linux-amd64.tar.gz
-    tar -xvzf helm-v3.12.2-linux-amd64.tar.gz
+    curl -LO https://get.helm.sh/helm-v3.17.1-linux-amd64.tar.gz
+    tar -xvzf helm-v3.17.1-linux-amd64.tar.gz
     sudo install -o root -g root -m 0755 linux-amd64/helm /usr/local/bin/helm
     sudo install -o root -g root -m 0755 linux-amd64/helm /usr/bin/helm
     helm version
     sudo helm version
     rm -rf linux-amd64
-    rm -rf helm-v3.12.2-linux-amd64.tar.gz
+    rm -rf helm-v3.17.1-linux-amd64.tar.gz
     ```
 
 === "Linux (ARM64)"
     
     ``` bash
-    curl -LO https://get.helm.sh/helm-v3.12.2-linux-arm64.tar.gz
-    tar -xvzf helm-v3.12.2-linux-arm64.tar.gz
+    curl -LO https://get.helm.sh/helm-v3.17.1-linux-arm64.tar.gz
+    tar -xvzf helm-v3.17.1-linux-arm64.tar.gz
     sudo install -o root -g root -m 0755 linux-arm64/helm /usr/local/bin/helm
     sudo install -o root -g root -m 0755 linux-arm64/helm /usr/bin/helm
     helm version
     sudo helm version
     rm -rf linux-arm64
-    rm -rf helm-v3.12.2-linux-arm64.tar.gz
+    rm -rf helm-v3.17.1-linux-arm64.tar.gz
     ```
 
 === "Windows (Chocolatey)"
@@ -447,10 +422,10 @@
 === "Windows (Executable)"
     
     ``` powershell
-    curl.exe -LO https://get.helm.sh/helm-v3.12.2-windows-amd64.zip
-    Expand-Archive ./helm-v3.12.2-windows-amd64.zip -DestinationPath ./
+    curl.exe -LO https://get.helm.sh/helm-v3.17.1-windows-amd64.zip
+    Expand-Archive ./helm-v3.17.1-windows-amd64.zip -DestinationPath ./
     cp windows-amd64/helm.exe ./helm.exe
-    rm helm-v3.12.2-windows-amd64.zip
+    rm helm-v3.17.1-windows-amd64.zip
     rm -r windows-amd64
     ```
 
@@ -497,9 +472,9 @@
 === "Linux (x86_64)"
     ``` bash
     export DOCKER_BUILDKIT=1
-    wget https://github.com/docker/buildx/releases/download/v0.11.2/buildx-v0.11.2.linux-amd64
+    wget https://github.com/docker/buildx/releases/download/v0.21.1/buildx-v0.21.1.linux-amd64
     mkdir -p ~/.docker/cli-plugins
-    mv buildx-v0.11.2.linux-amd64 ~/.docker/cli-plugins/docker-buildx
+    mv buildx-v0.21.1.linux-amd64 ~/.docker/cli-plugins/docker-buildx
     chmod a+x ~/.docker/cli-plugins/docker-buildx
     docker run --privileged --rm ghcr.io/marcus16-kang/binfmt:amd64 --install all
     ```
@@ -507,9 +482,9 @@
 === "Linux (ARM64)"
     ``` bash
     export DOCKER_BUILDKIT=1
-    wget https://github.com/docker/buildx/releases/download/v0.11.2/buildx-v0.11.2.linux-arm64
+    wget https://github.com/docker/buildx/releases/download/v0.21.1/buildx-v0.21.1.linux-arm64
     mkdir -p ~/.docker/cli-plugins
-    mv buildx-v0.11.2.linux-arm64 ~/.docker/cli-plugins/docker-buildx
+    mv buildx-v0.21.1.linux-arm64 ~/.docker/cli-plugins/docker-buildx
     chmod a+x ~/.docker/cli-plugins/docker-buildx
     docker run --privileged --rm ghcr.io/marcus16-kang/binfmt:arm64 --install all
     ```
@@ -532,7 +507,7 @@
 === "Linux (x86_64)"
     
     ``` bash
-    curl --silent --location "https://github.com/derailed/k9s/releases/download/v0.27.4/k9s_Linux_amd64.tar.gz" | tar xz -C /tmp
+    curl --silent --location "https://github.com/derailed/k9s/releases/latest/download/k9s_Linux_amd64.tar.gz" | tar xz -C /tmp
     sudo cp /tmp/k9s /usr/local/bin
     sudo cp /tmp/k9s /usr/bin
     k9s version
@@ -542,7 +517,7 @@
 === "Linux (ARM64)"
     
     ``` bash
-    curl --silent --location "https://github.com/derailed/k9s/releases/download/v0.27.4/k9s_Linux_arm64.tar.gz" | tar xz -C /tmp
+    curl --silent --location "https://github.com/derailed/k9s/releases/latest/download/k9s_Linux_arm64.tar.gz" | tar xz -C /tmp
     sudo cp /tmp/k9s /usr/local/bin
     sudo cp /tmp/k9s /usr/bin
     k9s version
@@ -558,7 +533,7 @@
 === "Windows (Executable)"
     
     ``` powershell
-    curl.exe -LO https://github.com/derailed/k9s/releases/download/v0.27.4/k9s_Windows_amd64.zip
+    curl.exe -LO https://github.com/derailed/k9s/releases/latest/download/k9s_Windows_amd64.zip
     Expand-Archive ./k9s_Windows_amd64.zip -DestinationPath ./
     rm k9s_Windows_amd64.zip
     rm LICENSE
@@ -669,7 +644,7 @@
 === "Linux (x86_64)"
     
     ``` bash
-    curl -LO https://github.com/argoproj/argo-cd/releases/download/v2.8.0/argocd-linux-amd64
+    curl -LO https://github.com/argoproj/argo-cd/releases/latest/download/argocd-linux-amd64
     sudo install -o root -g root -m 0755 argocd-linux-amd64 /usr/local/bin/argocd
     sudo install -o root -g root -m 0755 argocd-linux-amd64 /usr/bin/argocd
     rm argocd-linux-amd64
@@ -679,7 +654,7 @@
 === "Linux (ARM64)"
     
     ``` bash
-    curl -LO https://github.com/argoproj/argo-cd/releases/download/v2.8.0/argocd-linux-arm64
+    curl -LO https://github.com/argoproj/argo-cd/releases/latest/download/argocd-linux-arm64
     sudo install -o root -g root -m 0755 argocd-linux-arm64 /usr/local/bin/argocd
     sudo install -o root -g root -m 0755 argocd-linux-arm64 /usr/bin/argocd
     rm argocd-linux-arm64
@@ -695,7 +670,7 @@
 === "Windows (Executable)"
     
     ``` powershell
-    curl.exe -L https://github.com/argoproj/argo-cd/releases/download/v2.8.0/argocd-windows-amd64.exe -o argocd.exe
+    curl.exe -L https://github.com/argoproj/argo-cd/releases/latest/download/argocd-windows-amd64.exe -o argocd.exe
     ```
 
 ??? tip "Enable Shell Autocomplete"
@@ -704,3 +679,26 @@
     argocd completion bash | sudo tee /etc/bash_completion.d/argocd > /dev/null
     sudo chmod a+r /etc/bash_completion.d/argocd
     ```
+
+[argocd Documentations](https://github.com/argoproj/argo-cd)
+
+## Install `istioctl`
+
+=== "Linux"
+    
+    ``` bash
+    curl -L https://istio.io/downloadIstio | sh -
+    sudo install -o root -g root -m 0755 ./istio-1.24.3/bin/istioctl /usr/local/bin/istioctl
+    sudo install -o root -g root -m 0755 ./istio-1.24.3/bin/istioctl /usr/bin/istioctl
+    sudo istioctl version --short --remote=false
+    istioctl version --short --remote=false
+    ```
+
+??? tip "Enable Shell Autocomplete"
+
+    ``` bash
+    istioctl completion bash | sudo tee /etc/bash_completion.d/istioctl > /dev/null
+    sudo chmod a+r /etc/bash_completion.d/istioctl
+    ```
+
+[istioctl Documentations](https://istio.io/latest/docs/setup/install/istioctl/)

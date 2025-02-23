@@ -123,13 +123,12 @@
 
 | Kubernetes | CA     | Default |
 |------------|--------|---------|
-| 1.27       | 1.27.3 | default |
-| 1.26       | 1.26.4 |         |
-| 1.25       | 1.25.3 |         |
-| 1.24       | 1.24.3 |         |
-| 1.23       | 1.23   |         |
+| 1.32       | 1.32.0 | default |
+| 1.31       | 1.31.1 |         |
+| 1.30       | 1.30.2 |         |
+| 1.29       | 1.29.5 |         |
 
-> Go to [here](https://github.com/kubernetes/autoscaler/releases) and please check the new version of your kubernetes version. (2023-08-09)
+> Go to [here](https://github.com/kubernetes/autoscaler/releases) and please check the new version of your kubernetes version. (2025-02-23)
 
 [AWS Documentation](https://docs.aws.amazon.com/ko_kr/eks/latest/userguide/autoscaling.html#ca-deploy)
 
@@ -372,7 +371,7 @@
     helm install karpenter oci://public.ecr.aws/karpenter/karpenter \
         --create-namespace \
         --namespace karpenter \
-        --version v0.29.2 \
+        --version v0.37.7 \
         --set serviceAccount.create=false \
         --set serviceAccount.name=karpenter \
         --set settings.aws.clusterName=$CLUSTER_NAME \
@@ -393,7 +392,7 @@
     helm install karpenter oci://public.ecr.aws/karpenter/karpenter `
         --create-namespace `
         --namespace karpenter `
-        --version v0.29.2 `
+        --version v0.37.7 `
         --set serviceAccount.create=false `
         --set serviceAccount.name=karpenter `
         --set settings.aws.clusterName=$CLUSTER_NAME `
@@ -401,7 +400,7 @@
         --set settings.aws.interruptionQueueName=$QUEUE_NAME
     ```
 
-> Go to [here](https://github.com/aws/karpenter/releases) and please check the new version. (2023-08-09)
+> Go to [here](https://github.com/aws/karpenter/releases) and please check the new version. (2025-02-23)
 
 ### Create a node template
 

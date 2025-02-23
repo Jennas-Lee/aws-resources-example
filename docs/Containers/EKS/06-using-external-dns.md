@@ -77,7 +77,6 @@
 
     helm install external-dns external-dns/external-dns \
         --namespace external-dns \
-        --set image.tag=v0.13.5 \
         --set serviceAccount.create=false \
         --set serviceAccount.name=external-dns \
         --set interval=10s \
@@ -99,7 +98,6 @@
 
     helm install external-dns external-dns/external-dns `
         --namespace external-dns `
-        --set image.tag=v0.13.5 `
         --set serviceAccount.create=false `
         --set serviceAccount.name=external-dns `
         --set interval=10s `
@@ -261,7 +259,6 @@
 
     helm install external-dns-public external-dns/external-dns \
         --namespace external-dns \
-        --set image.tag=v0.13.5 \
         --set serviceAccount.create=false \
         --set serviceAccount.name=external-dns \
         --set interval=10s \
@@ -284,7 +281,6 @@
 
     helm install external-dns-public external-dns/external-dns `
         --namespace external-dns `
-        --set image.tag=v0.13.5 `
         --set serviceAccount.create=false `
         --set serviceAccount.name=external-dns `
         --set interval=10s `
@@ -309,7 +305,6 @@
 
     helm install external-dns-private external-dns/external-dns \
         --namespace external-dns \
-        --set image.tag=v0.13.5 \
         --set serviceAccount.create=false \
         --set serviceAccount.name=external-dns \
         --set interval=10s \
@@ -332,7 +327,6 @@
 
     helm install external-dns-private external-dns/external-dns `
         --namespace external-dns `
-        --set image.tag=v0.13.5 `
         --set serviceAccount.create=false `
         --set serviceAccount.name=external-dns `
         --set interval=10s `
