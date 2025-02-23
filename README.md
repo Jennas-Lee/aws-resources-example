@@ -1,14 +1,14 @@
-# [AWS Resources Example](https://marcus16-kang.github.io/aws-resources-example/)
+# [AWS Resources Example](https://jennas-lee.github.io/aws-resources-example/)
 
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/marcus16-kang/aws-resources-example/ci.yaml)](https://github.com/marcus16-kang/aws-resources-example/actions)
-[![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Fmarcus16-kang.github.io%2Faws-resources-example%2F)](https://marcus16-kang.github.io/aws-resources-example/)
-[![License Badge](https://img.shields.io/github/license/marcus16-kang/aws-resources-example)](LICENSE)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/jennas-lee/aws-resources-example/ci.yaml)](https://github.com/jennas-lee/aws-resources-example/actions)
+[![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Fjennas-lee.github.io%2Faws-resources-example%2F)](https://jennas-lee.github.io/aws-resources-example/)
+[![License Badge](https://img.shields.io/github/license/jennas-lee/aws-resources-example)](LICENSE)
 
 ## [License](LICENSE)
 
 MIT License
 
-Copyright (c) 2022-2023 marcus16-kang
+Copyright (c) 2022-2025 Jennas Lee
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

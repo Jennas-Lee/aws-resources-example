@@ -1,7 +1,7 @@
 site_name: AWS Resources Example
-site_url: https://marcus16-kang.github.io/aws-resources-example/
-repo_url: https://github.com/marcus16-kang/aws-resources-example
-repo_name: marcus16-kang/aws-resources-example
+site_url: https://jennas-lee.github.io/aws-resources-example/
+repo_url: https://github.com/jennas-lee/aws-resources-example
+repo_name: jennas-lee/aws-resources-example
 
 theme:
   name: material
