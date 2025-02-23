@@ -60,7 +60,7 @@ markdown_extensions:
 extra:
   analytics:
     provider: google
-    property: G-XBBMFDWMLT
+    property: G-PB89Z3W5Q6
   social:
     - icon: material/rss-box
       link: /aws-resources-example/feed_rss_updated.xml
